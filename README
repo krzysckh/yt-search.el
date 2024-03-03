@@ -1,0 +1,7 @@
+Search youtube from GNU Emacs.
+
+in .emacs:
+  (require 'yt-search)
+
+example usage:
+  M-x yt-search RET (write query) RET
