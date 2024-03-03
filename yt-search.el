@@ -33,6 +33,8 @@
 ;;
 ;; This file is not part of GNU Emacs.
 
+(require 'cus-edit)
+
 (defun yt-search--query (q)
   (shell-command-to-string (concat "yt-dlp ytsearch50:'" q "' --dump-json --default-search ytsearch "
                                    "--no-playlist --no-check-certificate --geo-bypass --flat-playlist "
